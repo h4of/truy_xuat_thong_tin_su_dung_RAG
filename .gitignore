@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+corpus/*
+embeddings/*
+indexes/bm25/*
+indexes/faiss_index.index
