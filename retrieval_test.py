@@ -12,8 +12,8 @@ DEPENDENCY_HINT = "pip install pandas numpy faiss-cpu sentence-transformers pyar
 try:
     import pandas as pd
 
-    from bm25_retrieval import BM25Index, bm25_search, load_bm25_index
-    from faiss_semantic_search import DenseIndex, dense_search, load_faiss_index
+    from search_engine import BM25Index, DenseIndex, bm25_search, dense_search
+    from search_engine import load_bm25_index, load_faiss_index
 except ImportError as exc:
     print(f"ERROR: Missing dependency: {exc.name}", file=sys.stderr)
     print(f"Install with: {DEPENDENCY_HINT}", file=sys.stderr)

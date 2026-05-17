@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+"""Reusable FAISS semantic search over prebuilt dense indexes."""
+
 import sys
 from dataclasses import dataclass
 from pathlib import Path

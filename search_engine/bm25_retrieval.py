@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+"""Reusable BM25 retrieval over prebuilt raw posting-list statistics."""
+
 import json
 import math
 import re

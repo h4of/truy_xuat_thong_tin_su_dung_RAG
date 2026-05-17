@@ -221,3 +221,7 @@ corpus/*
 embeddings/*
 indexes/bm25/*
 indexes/faiss_index.index
+
+test.py
+
+BTL.code-workspace
