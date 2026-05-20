@@ -42,7 +42,6 @@ rag_engine/
 retrieval_test.py
 rag_test.py
 streamlit_app.py
-test.py
 ```
 
 ## Requirements
@@ -110,14 +109,6 @@ The app:
 - sends only the top 5 results into RAG
 - shows an answer panel at the top
 - renders the results underneath with URL and score details
-
-## OpenRouter Smoke Test
-
-Test a direct OpenRouter call:
-
-```bash
-python test.py --prompt "Say hello in one short sentence."
-```
 
 ## Notes
 
